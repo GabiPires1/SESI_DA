@@ -81,17 +81,35 @@ header p {
     background-color: white;
     width: 70%;
     height: 70%;
-    border-radius: 70%;  
+    border-radius: 50px;
+
 }
 
 .anuncio-le{
 width: 50%;
+text-align: center;
+}
+.anuncio-le p{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.anuncio-le button{
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 50%;
+    border-radius: 50px;
+    cursor: pointer;
 }
 
 .anuncio-ld{
     width: 50%;
-    height: 100%;
-background-image: url('./gato_laranja.jpg');
-background-size: cover;
-background-position: center;
+    height: 80%;
+    background-image: url('./gato_laranja.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 70px;
+    magin
 }
