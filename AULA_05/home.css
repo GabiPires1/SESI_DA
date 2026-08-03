@@ -59,8 +59,39 @@ header p {
 }
 
 .card p {
-    color: aliceblue;
+    color: white;
     font-size: 40px;
     padding-left: 25px;
     padding-top: 176px;
+}
+
+.grupo-anuncio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 430px;
+    margin-top: 50px;
+}
+
+.grupo-anuncio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 70%;
+    height: 70%;
+    border-radius: 70%;  
+}
+
+.anuncio-le{
+width: 50%;
+}
+
+.anuncio-ld{
+    width: 50%;
+    height: 100%;
+background-image: url('./gato_laranja.jpg');
+background-size: cover;
+background-position: center;
 }
