@@ -6,24 +6,24 @@ body {
     padding: 20px;
 }
 
-h1 {
+h1, h2 {
     color: #5b3b8c;
 }
 
-input {
-    width: 70px;
-    padding: 6px;
+input, select {
+    padding: 8px;
+    margin: 5px;
 }
 
 #nome {
     width: 200px;
-    margin-bottom: 20px;
 }
 
 table {
     width: 100%;
     background-color: white;
     border-collapse: collapse;
+    margin-top: 20px;
 }
 
 th, td {
@@ -37,10 +37,15 @@ th {
 }
 
 button {
-    margin-top: 20px;
-    padding: 12px 25px;
+    margin: 8px 4px;
+    padding: 10px 15px;
     background-color: #5b3b8c;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #402767;
 }
