@@ -10,27 +10,29 @@
 
     <h1>Sistema de Notas</h1>
 
-    <form id="formulario">
-        <input type="text" id="nome" placeholder="Nome do aluno" required>
-        <input type="number" id="nota1" placeholder="Nota 1" min="0" max="10" step="0.1" required>
-        <input type="number" id="nota2" placeholder="Nota 2" min="0" max="10" step="0.1" required>
-
-        <button type="submit">Adicionar aluno</button>
-    </form>
-
-    <h2>Alunos cadastrados</h2>
+    <label>Nome do aluno:</label>
+    <input type="text" id="nome" placeholder="Digite o nome">
 
     <table>
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Média</th>
-                <th>Situação</th>
-                <th>Ação</th>
-            </tr>
-        </thead>
-        <tbody id="lista"></tbody>
+        <tr>
+            <th>Matéria</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Média</th>
+            <th>Situação</th>
+        </tr>
+
+        <tr><td>Português</td><td><input type="number" id="n1" min="0" max="10" step="0.1"></td><td><input type="number" id="n2" min="0" max="10" step="0.1"></td><td id="m0">-</td><td id="s0">-</td></tr>
+        <tr><td>Matemática</td><td><input type="number" id="n3" min="0" max="10" step="0.1"></td><td><input type="number" id="n4" min="0" max="10" step="0.1"></td><td id="m1">-</td><td id="s1">-</td></tr>
+        <tr><td>História</td><td><input type="number" id="n5" min="0" max="10" step="0.1"></td><td><input type="number" id="n6" min="0" max="10" step="0.1"></td><td id="m2">-</td><td id="s2">-</td></tr>
+        <tr><td>Geografia</td><td><input type="number" id="n7" min="0" max="10" step="0.1"></td><td><input type="number" id="n8" min="0" max="10" step="0.1"></td><td id="m3">-</td><td id="s3">-</td></tr>
+        <tr><td>Biologia</td><td><input type="number" id="n9" min="0" max="10" step="0.1"></td><td><input type="number" id="n10" min="0" max="10" step="0.1"></td><td id="m4">-</td><td id="s4">-</td></tr>
+        <tr><td>Química</td><td><input type="number" id="n11" min="0" max="10" step="0.1"></td><td><input type="number" id="n12" min="0" max="10" step="0.1"></td><td id="m5">-</td><td id="s5">-</td></tr>
+        <tr><td>Física</td><td><input type="number" id="n13" min="0" max="10" step="0.1"></td><td><input type="number" id="n14" min="0" max="10" step="0.1"></td><td id="m6">-</td><td id="s6">-</td></tr>
+        <tr><td>Inglês</td><td><input type="number" id="n15" min="0" max="10" step="0.1"></td><td><input type="number" id="n16" min="0" max="10" step="0.1"></td><td id="m7">-</td><td id="s7">-</td></tr>
     </table>
+
+    <button onclick="calcular()">Calcular médias</button>
 
     <script src="script.js"></script>
 </body>
