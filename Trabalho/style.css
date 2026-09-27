@@ -1,0 +1,97 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5fb;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #3159a6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 9px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3159a6;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #203e79;
+}
+
+.secundario {
+    background-color: #a83242;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #3159a6;
+    color: white;
+}
+
+.aprovado {
+    color: green;
+    font-weight: bold;
+}
+
+.recuperacao {
+    color: #b77900;
+    font-weight: bold;
+}
+
+.reprovado {
+    color: red;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .container {
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 650px;
+    }
+}
